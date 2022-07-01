@@ -1,0 +1,26 @@
+n=int(input())
+l=list(map(int,input().split()))
+m=[]
+x=[]
+c=0
+for i in l:
+    if i not in m:
+        m.append(i)
+    else:
+        x.append(i)
+        c=c+1
+print(c)
+
+out put
+ 20
+1 2 3 4 5 1 2 3 5 4 6 9 8 6 9 8 7 7 10 20
+9
+Footer
+© 2022 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
